@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  background: #181a1b;
+  color: #f3f3f3;
+  min-height: 100vh;
+}
+header {
+  padding: 2.5rem 0 2rem 0;
+  background: #181a1b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+header h1, header p {
+  text-align: center;
+}
+header h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+header p {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #bdbdbd;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 2rem 1.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.left {
+  flex: 7;
+}
+.right {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+h2 {
+  margin-top: 0;
+  font-size: 1.3rem;
+  color: #e0e0e0;
+  letter-spacing: 0.5px;
+}
+.job {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.job h3 {
+  margin: 0 0 0.2rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.date {
+  font-size: 0.95rem;
+  color: #a0a0a0;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+ul {
+  margin: 0.3rem 0 0.7rem 1.2rem;
+  padding: 0;
+  list-style: disc inside;
+}
+.right ul {
+  margin-left: 0;
+  list-style: none;
+}
+.right ul li {
+  margin-bottom: 0.5rem;
+}
+a {
+  color: #7ecfff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.tags {
+  margin: 0.5rem 0 0.7rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.tags span {
+  background: #23272a;
+  color: #b3e5fc;
+  font-size: 0.92rem;
+  padding: 0.18em 0.7em;
+  border-radius: 6px;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+}
+.job-info {
+  font-size: 1rem;
+  color: #e0e0e0;
+  margin-bottom: 1.2rem;
+}
+.skills-section {
+  padding: 1.2rem 0 0.5rem 0;
+}
+.skill-group {
+  margin-bottom: 1rem;
+}
+.skill-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #b3e5fc;
+  margin-bottom: 0.1rem;
+}
+.skill-list {
+  font-size: 0.98rem;
+  color: #bdbdbd;
+  margin-bottom: 0.2rem;
+}
+.education-section {
+  padding-top: 1.2rem;
+}
+.edu-entry {
+  margin-bottom: 1.1rem;
+}
+.edu-program {
+  font-size: 1.08rem;
+  font-weight: 600;
+  color: #e0e0e0;
+}
+.edu-place, .edu-years {
+  font-size: 0.97rem;
+  color: #bdbdbd;
+}
+.edu-years {
+  font-size: 0.93rem;
+  color: #888;
+}
+@media (max-width: 800px) {
+  main {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+  .left, .right {
+    flex: unset;
+    width: 100%;
+  }
+  .right {
+    gap: 1.2rem;
+  }
+  header {
+    padding: 1.5rem 0 1rem 0;
+    max-width: 100%;
+  }
+  .skills-section, .education-section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+} 
