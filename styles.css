@@ -80,7 +80,7 @@ ul {
   margin-bottom: 0.5rem;
 }
 a {
-  color: #7ecfff;
+  color: #2aa198;
   text-decoration: none;
 }
 a:hover {
@@ -94,7 +94,7 @@ a:hover {
 }
 .tags span {
   background: #23272a;
-  color: #b3e5fc;
+  color: #cb4b16;
   font-size: 0.92rem;
   padding: 0.18em 0.7em;
   border-radius: 6px;
@@ -115,7 +115,7 @@ a:hover {
 .skill-title {
   font-size: 1.05rem;
   font-weight: 600;
-  color: #b3e5fc;
+  color: #cb4b16;
   margin-bottom: 0.1rem;
 }
 .skill-list {
